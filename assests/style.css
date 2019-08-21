@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.nav {
+    width: 100vw;
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+    color: #8a8a8a;
+    display: table;
+    clear: both;
+    
+}
+
+.navTitle {
+    height: 10vh;
+    float: left;
+    display: table;
+}
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+    padding-left: 20px;
+    color: 
+}
+
+.navItems {
+    color: aliceblue;
+    float: right;
+    height: 10vh;
+    display: table;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.navItem {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navItem:hover {
+    background-color: rgb(122,117,138);
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.content {
+    height: 90vh;
+    position: relative;
+	background: url('/Users/Janus/Desktop/BootCamp/Basic-Portfolio/Basic-Portfolio/assests/images/stars.jpg');
+	background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.picture {
+    float: left;
+    border: 2px solid cyan;
+    display: table;
+    padding: 30px;
+    margin: 35px;
+   
+}
+
+.bioHeader {
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    background: linear-gradient(to right, 
+    #444444 20%, #3a3a3a 20% 40%, #262626 40% 60%, #080808 60% 80%, #080808 80%);
+    border-radius: 50%;
+    padding: 50px;
+    margin: 50px;
+   
+}
+
+.bio {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: center;
+    font-size: 22px;
+    border: 2px solid cyan;
+    background-color: white;
+    height: 600px;
+    width: 670px;
+}
+
