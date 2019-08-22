@@ -13,6 +13,10 @@
     border-radius: 50%;
 }
 
+.header:hover{
+        color: red;
+    } 
+
 .portfolioContent{
     display: table;
     position: relative;
@@ -21,11 +25,11 @@
     border: 2px cyan solid;
     position: absolute;
     display: table;
-    left: 100%;
-    top: 600%;
-    height: 200px;
+   right: -20vw;
+   top: 40vh;
+   height: 200px;
     width: 200px;
-    background: url(/assests/images/live\ shot\ dark.JPG);
+    background: url("./images/liveshotdark.JPG");
     background-position: center;
     background-size: cover;
     color: white;
@@ -37,11 +41,11 @@
     border: 2px cyan solid;
     position: absolute;
     display: table;
-    left: 450%;
-    top: 600%;
     height: 200px;
     width: 200px;
-    background: url(/assests/images/livecrowd.JPG);
+    right: -53vw;
+    top: 40vh;
+    background: url("./images/livecrowd.JPG");
     background-position: center;
     background-size: cover;
     color: rgb(233, 229, 233);
@@ -49,61 +53,45 @@
     padding-top: 380%;
     font-size: 50px;
 }
-/*
+
 .producer {
-    border: 2px cyan solid;
-    position: absolute;
     display: table;
-    /* left: 900%;
-    top: 1100%;
+    position: absolute;
+    right: -86vw;
+    top: 40vh;
+    border: 2px cyan solid;
     height: 200px;
-    width: 200px; 
-    background: url(/assests/images/atlas3.jpg);
+    width: 200px;
+    background: url("./images/atlas3.JPG");
     background-position: center;
     background-size: cover;
-    color: rgb(241, 209, 159);
+    color: rgb(233, 229, 233);
     text-align: center;
-    padding-top: 380%;
+    padding-top: 490%;
     font-size: 50px;
-} 
-*/
+}
+
+
 .clubShows:hover{
     color: greenyellow;
     font-size: 80px;
-    background: url(/assests/images/live\ shot\ warped.JPG);
+    background: url("./images/livdshotmoon.JPG");
     background-size: cover;
     background-position: center;
 }
 .festivals:hover{
     color: greenyellow;
     font-size: 80px;
-    background: url(/assests/images/livdshotmoon.JPG);
+    background: url("./images/livdshotmoon.JPG");
     background-size: cover;
     background-position: center;
 }
+
+
 .producer:hover{
     color: greenyellow;
     font-size: 80px;
-    background: url(/assests/images/snowboarding.jpg);
+    background: url("./images/snowboarding.jpg");
     background-size: cover;
     background-position: center;
 }
-/* .snowboard {
-    
-    border: 2px cyan solid;
-    position: absolute;
-    display: table;
-    left: 1200%;
-    top: 1100%;
-    height: 200px;
-    width: 200px;
-    background: url(/assests/images/atlas3.jpg);
-    background-position: center;
-    background-size: cover;
-    color: rgb(241, 209, 159);
-    text-align: center;
-    padding-top: 380%;
-    font-size: 50px;
-}  */
-
-
