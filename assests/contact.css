@@ -1,0 +1,218 @@
+.contactBox{
+    position: absolute;
+    display: table;
+    background-color: red;
+    width: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;  
+    z-index: 17;
+
+}
+
+
+.content {
+    background: "assests/images/stars.jpg"; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+	background: url('./images/stars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.box1 {
+    position: absolute;
+    display: table;
+    background-color: #eeeeee;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-22.5deg);
+    z-index: 16;
+}
+.box2 {
+    position: absolute;
+    display: table;
+    background-color: #e4e4e4;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-45deg);
+    z-index: 15;
+}
+.box3 {
+    position: absolute;
+    display: table;
+    background-color: #dadada;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-67.5deg);
+    z-index: 14;
+}
+.box4 {
+    position: absolute;
+    display: table;
+    background-color: #d0d0d0;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-90deg);
+    z-index: 13;
+}
+.box5 {
+    position: absolute;
+    display: table;
+    background-color: #c6c6c6;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-112.5deg);
+    z-index: 12;
+}
+.box6 {
+    position: absolute;
+    display: table;
+    background-color: #bcbcbc;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-135deg);
+    z-index: 11;
+}
+.box7 {
+    position: absolute;
+    display: table;
+    background-color: #b2b2b2;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-157.5deg);
+    z-index: 10;
+}
+.box8 {
+    position: absolute;
+    display: table;
+    background-color: #a8a8a8;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-180deg);
+    z-index: 9;
+}
+.box9 {
+    position: absolute;
+    display: table;
+    background-color: #9e9e9e;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-202.5deg);
+    z-index: 8;
+}
+.box10 {
+    position: absolute;
+    display: table;
+    background-color: #949494;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-225deg);
+    z-index: 7;
+}
+.box11 {
+    position: absolute;
+    display: table;
+    background-color: #8a8a8a;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-247.5deg);
+    z-index: 6;
+}
+.box12 {
+    position: absolute;
+    display: table;
+    background-color: #9e9e9e;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-270deg);
+    z-index: 5;
+}
+.box13 {
+    position: absolute;
+    display: table;
+    background-color: #a8a8a8;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-292.5deg);
+    z-index: 4;
+}
+.box14 {
+    position: absolute;
+    display: table;
+    background-color: #b2b2b2;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-315deg);
+    z-index: 3;
+}
+.box15 {
+    position: absolute;
+    display: table;
+    background-color: #bcbcbc;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-337.5deg);
+    z-index: 2;
+}
+.box16 {
+    position: absolute;
+    display: table;
+    background-color: #c6c6c6;
+    opacity: .5;
+    width: 100vh;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    padding: 10vh 10vw;
+    transform: rotate(-360deg);
+    z-index: 1;
+}
