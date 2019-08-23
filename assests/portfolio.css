@@ -29,6 +29,10 @@
     color: rgb(233, 229, 233);
 
 }
+
+.tablePics {
+    padding: 20px;
+}
 .myBand {
     border: 2px cyan solid;
     position: absolute;
