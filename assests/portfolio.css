@@ -1,12 +1,5 @@
 
-.title{
-    font-family: 'Creepster', cursive;
-    vertical-align: middle;
-    font-size: 90px;
-    padding-left: 30px;
-    padding-top: 25px;
-    color: chartreuse;
-}
+
 
 
 .portfolioHeader {
@@ -32,13 +25,16 @@
     display: table;
     position: relative;
 }
+.portfolioContent:visited{
+    color: rgb(233, 229, 233);
 
+}
 .myBand {
     border: 2px cyan solid;
     position: absolute;
     display: table;
     right: -30vw;
-    top: 30vh;
+    top: 23vh;
     height: 400px;
     width: 400px;
     background: url("./images/liveshotdark.JPG");
@@ -55,8 +51,8 @@
     display: table;
     height: 400px;
     width: 400px;
-    right: -58vw;
-    top: 30vh;
+    right: -60vw;
+    top: 23vh;
     background: url("./images/foglake.jpg");
     background-position: center;
     background-size: cover;
@@ -69,8 +65,8 @@
 .producer {
     display: table;
     position: absolute;
-    right: -86vw;
-    top: 30vh;
+    right: -90vw;
+    top: 23vh;
     border: 2px cyan solid;
     height: 400px;
     width: 400px;
@@ -93,7 +89,7 @@
 }
 
 .myBand:visited{
-    color: white;
+    color: rgb(233, 229, 233);
 }
 .myTravels:hover{
     color: darkorchid;
@@ -104,7 +100,7 @@
 }
 
 .myTravels:visited{
-    color: white;
+    color: rgb(233, 229, 233);
 }
 
 .producer:hover{
@@ -116,5 +112,5 @@
 }
 
 .producer:visited{
-    color: white;
+    color: rgb(233, 229, 233);
 }

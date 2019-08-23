@@ -24,9 +24,8 @@
 .title{
     font-family: 'Creepster', cursive;
     vertical-align: middle;
-    font-size: 90px;
-    padding-left: 30px;
-    padding-top: 25px;
+    font-size: 60px;
+    padding: 30px 20px 20px 20px;
     color: chartreuse;
 }
 
@@ -37,11 +36,12 @@
 .navItems {
     font-family: 'Creepster', cursive;
     float: right;
-    height: 10vh;
+    height: 40px;
     display: table;
-    padding: 30px;
-    padding-right: 20vw;
-    font-size: 5vh;
+    padding: 10px;
+    padding-left: 20vw;
+    padding-top: 40px;
+    font-size: 4vh;
 
 }
 
@@ -131,8 +131,7 @@ body {
     color: white;
     font-family: 'Fredericka the Great', cursive;
     line-height: 50px;
-    background: 
-    
+    padding-top: 30px;
 
 }
 
@@ -144,6 +143,7 @@ body {
 }
 
 footer {
+    border-top: 8px solid #4aaaa5;
     position:sticky;
     text-align: center;
     font-size: 25px;
