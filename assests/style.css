@@ -80,8 +80,8 @@ body {
 
 .bioHeader {
     font-family: 'Vast Shadow', cursive;
-    font-size: 100px;
-    padding-top: 30px;
+    font-size: 30px;
+    padding-top: 10px;
     width: 60vw;
     height: 15vh;
     color: chartreuse;
