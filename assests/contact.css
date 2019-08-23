@@ -1,7 +1,7 @@
 .contactBox{
     position: absolute;
     display: table;
-    background: url("./images/sky.jpg");
+    
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -27,8 +27,7 @@
     #444444 20%, #3a3a3a 20% 40%, #262626 40% 60%, #080808 60% 80%, #080808 80%);
     border-radius: 50%;
 }
-.content {
-    background: "assests/images/stars.jpg"; 
+.content { 
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -38,22 +37,42 @@
     background-size: cover; 
 }
 form{
+    font-family: 'Fredericka the Great', cursive;
     color: chartreuse;
     background-color: black;
     padding: 10px;
+    font-size: 50px;
 }
 .contactText{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
     color: chartreuse;
     text-align: center;
     padding: 20px;
     background-color: black;
 }
+
+input{
+    font-family: 'Wallpoet', cursive;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 0;
+    font-size: 25px;
+}
+
+input:hover{
+    background-color: darkred;
+}
 button{
+    position: absolute;
+    left: 7vw;
+    font-family: 'Fredericka the Great', cursive;
     margin: 10px;
     color: chartreuse;
     background-color: black;
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
+
 
 }
 
@@ -74,6 +93,9 @@ button:hover{
     transform: rotate(-22.5deg);
     z-index: 16;
 }
+.box1:hover{
+    background-color: mediumblue;
+}
 .box2 {
     position: absolute;
     display: table;
@@ -85,6 +107,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-45deg);
     z-index: 15;
+}
+
+.box2:hover{
+    background-color: mediumorchid;
 }
 .box3 {
     position: absolute;
@@ -98,6 +124,10 @@ button:hover{
     transform: rotate(-67.5deg);
     z-index: 14;
 }
+
+.box3:hover {
+    background-color: mediumpurple;
+}
 .box4 {
     position: absolute;
     display: table;
@@ -109,6 +139,9 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-90deg);
     z-index: 13;
+}
+.box4:hover {
+    background-color: mediumseagreen;
 }
 .box5 {
     position: absolute;
@@ -122,6 +155,10 @@ button:hover{
     transform: rotate(-112.5deg);
     z-index: 12;
 }
+
+.box5:hover{
+    background-color: mediumslateblue;
+}
 .box6 {
     position: absolute;
     display: table;
@@ -133,6 +170,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-135deg);
     z-index: 11;
+}
+
+.box6:hover{
+    background-color: mediumspringgreen;
 }
 .box7 {
     position: absolute;
@@ -146,6 +187,10 @@ button:hover{
     transform: rotate(-157.5deg);
     z-index: 10;
 }
+
+.box7:hover{
+    background-color: mediumturquoise;
+}
 .box8 {
     position: absolute;
     display: table;
@@ -157,6 +202,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-180deg);
     z-index: 9;
+}
+
+.box8:hover{
+    background-color: mediumvioletred;
 }
 .box9 {
     position: absolute;
@@ -170,6 +219,10 @@ button:hover{
     transform: rotate(-202.5deg);
     z-index: 8;
 }
+
+.box9:hover{
+    background-color: mediumaquamarine;
+}
 .box10 {
     position: absolute;
     display: table;
@@ -181,6 +234,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-225deg);
     z-index: 7;
+}
+
+.box10:hover{
+    background-color: midnightblue;
 }
 .box11 {
     position: absolute;
@@ -194,6 +251,10 @@ button:hover{
     transform: rotate(-247.5deg);
     z-index: 6;
 }
+
+.box11:hover{
+    background-color: lime;
+}
 .box12 {
     position: absolute;
     display: table;
@@ -205,6 +266,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-270deg);
     z-index: 5;
+}
+
+.box12:hover{
+    background-color: deeppink;
 }
 .box13 {
     position: absolute;
@@ -218,6 +283,10 @@ button:hover{
     transform: rotate(-292.5deg);
     z-index: 4;
 }
+
+.box13:hover{
+    background-color: deepskyblue;
+}
 .box14 {
     position: absolute;
     display: table;
@@ -229,6 +298,10 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-315deg);
     z-index: 3;
+}
+
+.box14:hover{
+    background-color: aqua;
 }
 .box15 {
     position: absolute;
@@ -242,6 +315,10 @@ button:hover{
     transform: rotate(-337.5deg);
     z-index: 2;
 }
+
+.box15:hover{
+    background-color: floralwhite;
+}
 .box16 {
     position: absolute;
     display: table;
@@ -254,4 +331,8 @@ button:hover{
     padding: 10vh 10vw;
     transform: rotate(-360deg);
     z-index: 1;
+}
+
+.box16:hover{
+    background-color: lightgreen;
 }
