@@ -1,7 +1,9 @@
+
+
 .contactBox{
     position: absolute;
     display: table;
-    
+    width: 960px;
     background-position: center;
     background-size: cover;
     height: 400px;
