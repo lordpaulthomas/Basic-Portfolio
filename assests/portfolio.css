@@ -33,6 +33,7 @@
 .tablePics {
     padding: 20px;
 }
+
 .myBand {
     border: 2px cyan solid;
     position: absolute;
@@ -74,7 +75,7 @@
     border: 2px cyan solid;
     height: 400px;
     width: 400px;
-    background: url("./images/atlas3.JPG");
+    background: url("./images/livecrowd.JPG");
     background-position: center;
     background-size: cover;
     color: rgb(233, 229, 233);
@@ -117,4 +118,10 @@
 
 .producer:visited{
     color: rgb(233, 229, 233);
+}
+/* @media screen and (max-width: 575.98px) {
+    .myBand, .myTravels, .producer{
+    height: 10px;
+    width: 10px;
+    } */
 }
